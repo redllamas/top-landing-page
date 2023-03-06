@@ -1,0 +1,156 @@
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #1F2937;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ 
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+}
+ul {
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color:#F9FAF8;
+}
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    flex-direction: row;
+}
+.hero-text {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.hero-lead {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-section button {
+    margin: 0 20px;
+    padding: 16px;
+    background-color:#3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 3px;
+    color: #F9FAF8;
+    font-weight: 700;
+    flex: 0 1 auto;
+}
+.placeholder {
+    flex:1;
+    height:200px;
+    display: flex;
+    background-color: #575a5d;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FEATURES SECTION */
+.features h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* CARDS SECTION */
+.card {
+    flex:1;
+    align-items: flex-start;
+    
+}
+
+.card-image {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    height:200px;
+    width:200px;
+}
+.card p {
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #1F2937;
+}
+
+/* QUOTE SECTION */
+.bg-quote {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+figcaption {
+    font-weight: 24px;
+    font-weight: 500;
+}
+/* CTA SECTION */
+.bg-cta {
+    background-color: #3882F6;
+}
+
+.cta {
+ color: #fff;
+}
+
+.cta-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.cta-text {
+    flex:1;
+}
+.cta-text p {
+    color: #F9FAF8;
+}
+.cta-title {
+ font-weight: 700;
+ color: #F9FAF8;
+}
+
+.cta button {
+    margin: 0 20px;
+    padding: 16px;
+    background-color:#3882F6;
+    border: 1px solid #F9FAF8;
+    border-radius: 3px;
+    color: #F9FAF8;
+}
